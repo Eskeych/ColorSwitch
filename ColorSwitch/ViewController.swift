@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     @IBAction func redSliderShift(_ sender: Any) {
         if redSwitch.isOn{
             sliderChange()
-            redLabel.text = redSlider
+            redLabel.text = String(redSlider.value)
         }
     }
     
